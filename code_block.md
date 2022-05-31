@@ -1,3 +1,4 @@
+```ts
 export{}
 
 const path = Deno.args[0]
@@ -12,3 +13,16 @@ const dirPath = Deno.args[1]
 console.log(` This is the second provided path: \n\t --> ${dirPath}`)
 
 const newPath = Deno.cwd() + `/${dirPath}`
+```
+
+<br>
+
+```bash
+
+npm init
+
+npm install serialport -g
+
+npm install johny-five --save
+
+```
