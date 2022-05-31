@@ -9,6 +9,7 @@ Public repository with sample markdown codes to learn its syntax in some minutes
 1. [What Markdown is](#what-markdown-is)
 1. [Why and where to use it?](#why-and-where-to-use-it)
 1. [Popular apps with Markdown support](#popular-apps-with-markdown-support)
+1. [Additional Information](#additional-information)
 <!-- H2 -->
 ## What Markdown is
 <!-- H3 -->
@@ -42,7 +43,7 @@ So, when we have a look at GitHub, a platform that supports it and uses it in RE
 - Obsidian
 
 ### For blog writting:
-- [Ghost](https://ghost.org/changelog/markdown/)
+- [Ghost](https://ghost.org/changelog/markdown/ "Ghost Platform")
 
 
 ## Additional Information
