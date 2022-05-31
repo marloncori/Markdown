@@ -2,7 +2,8 @@
 ```C++
  auto multiply(unsigned int x, unsigned int y) -> unsigned int {
     if(x == NULL || y == NULL){     
-        throw std::runtime_error(" Function parameters cannot be null!");
+        throw std::system_error(errno,
+            std::system_category, " Function parameters cannot be null!");
     }
     return x * y;
 }
@@ -18,9 +19,11 @@ struct File {
 impl File {
     fn new(path: string, name: string) -> Self {
         File {
-            string, name,
+            path, name,
         }
     }
+    
+    (...)
 }
 ```
 
@@ -32,6 +35,14 @@ const testFunc = (myArg) => {
     else {
         console.log(myArg)
     }
+}
+
+let name = 'marloncori'
+
+try {
+  testFunc(name)
+} catch(error){
+   console.log(error)
 }
 ```
 
