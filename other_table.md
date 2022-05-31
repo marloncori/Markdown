@@ -14,7 +14,7 @@ Robot 1 | Recalculating position | Approaching to leader
 <hr>
 
 <!-- The ' :---: " stands for centered text -->
-King | Years of Kingdom State | Country
+King | Years of Kingdom | Country
 :---: | :---: | :---:
 *David* | 40 | Israel
 *Salomon* | 40 | Israel
