@@ -1,28 +1,51 @@
-```ts
-export{}
 
-const path = Deno.args[0]
-console.log(` This is the provided path: \n\t --> ${path}`)
+```C++
+ auto multiply(unsigned int x, unsigned int y) -> unsigned int {
+    if(x == NULL || y == NULL){     
+        throw std::runtime_error(" Function parameters cannot be null!");
+    }
+    return x * y;
+}
+```
+---
+```rust
+#[derive(Debug)]
+struct File {
+    path: string,
+    name: string,
+}
 
-const contents: string = await Deno.readTextFile(path)
-console.log(` This is the contents: \n\t${contents}`)
-
-//or const contents: string = Deno.readTextFileSync(path)
-
-const dirPath = Deno.args[1]
-console.log(` This is the second provided path: \n\t --> ${dirPath}`)
-
-const newPath = Deno.cwd() + `/${dirPath}`
+impl File {
+    fn new(path: string, name: string) -> Self {
+        File {
+            string, name,
+        }
+    }
+}
 ```
 
-<br>
+```js
+const testFunc = (myArg) => {
+    if(typeof myArg === 'string'){
+        console.log(` The argument is of type string, i.e. --> \'${myArg}\'`)
+    }
+    else {
+        console.log(myArg)
+    }
+}
+```
 
-```bash
+```ts
+  class Sample {
+      variable: string | number = undefined
 
-npm init
-
-npm install serialport -g
-
-npm install johny-five --save
-
+      constructor(value: string | number){
+          this.variable = value
+          console.log(" Sample has been instantiated!")
+      }
+      
+      print(): any {
+          return `this is your variable: ${this.variable}`
+      }
+  }
 ```
