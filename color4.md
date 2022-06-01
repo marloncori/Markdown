@@ -1,12 +1,12 @@
 ---
-a[href='b'] {
-    color: blue;
+a[href='r'] {
+    color: red;
     pointer-events: none;
     cursor: default;
     text-decoration: none;
 }
 ---
 
-## <a href='blue'>Look, this text is blue
+## <a href='r'>Look, this text is blue
 
 
